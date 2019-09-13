@@ -1,0 +1,42 @@
+  table,th,td
+  {
+    border:2px solid black;
+    border-collapse: collapse;  
+  }
+
+.rubrik{
+background-color:white;
+color:black;
+}
+
+.rad1{
+background-color:black;
+color:white;
+}
+    
+.rad2{
+background-color:white;
+color:black;
+}
+    
+.rad3{
+background-color:black;
+color:white;
+}
+
+td:nth-child(4){
+    text-align:right;
+}
+td:nth-child(2){
+    text-align:center;
+}
+td:nth-child(3){
+    text-align:center;
+}
+}
+td:nth-child(1){
+    text-align:left;
+}
+.text{
+    text-align:center;
+}
