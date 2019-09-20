@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Uppgift Egen Webbplats</title>
-<link href="styleEW.css" rel ="stylesheet>
-</head>
-<body>
-      
-        <tr class="rubrik">
-<td>Namn</td>
-<td>Ålder</td>
-<td>Grandslam titlar </td>
-<td>Höger/Vänster hänt</td>
-</tr>
+	<html lang="sv">
+	<head> <!-- huvud nödvändigt för att det ska fungera-->
+		<meta charset="utf-8">
+		<title>Uppgift Egen Webbplats</title><!-- titeln-->
+		<link href ="StyleEW.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav>
+		<ul class="meny"><!--Detta är för att få en meny på toppen -->
+			<li><a href="Om-mig.html">Hem</a></li><!-- Nmanen på en av rubrikerna i menyn-->
+			<li><a href="UppgiftEW.html">Tabell</a></li>
+			<li><a href="Intressen.html">Intressen </a></li>
+		</ul>
+		</nav>
+	<table>  
+	 <caption class ="text">Tennis Spelare</caption><!--Det betyder att det är en rubrik på tabellen-->
+        <tr class="rubrik"><!-- Namn gett det för att kunna ändra på det i css-->
+			<th>Namn</th><!--Första kolummen i tabellen -->
+			<th>Ålder</th>
+			<th>Grandslam titlar </th>
+            <th>Höger/Vänster hänt</th>
+	</tr>
 
-     <tr class="rad1">
-<td>Roger Federer</td>
-<td>38 år</td>
-<td>20 grandslam titlar</td>
-<td>höger hänt</td>
-</tr>
+    <tr class="rad1">
+		<td>Roger Federer</td>
+		<td>38 år</td>
+		<td>20 grandslam titlar</td>
+		<td>höger hänt</td>
+		</tr>
 
     <tr class="rad2"> 
-<td>Novak Djokovic</td>
-<td>32 år</td>
-<td>16 Grandslam titlar</td>
-<td>höger hänt</td>
-</tr>
+		<td>Novak Djokovic</td>
+		<td>32 år</td>
+		<td>16 Grandslam titlar</td>
+		<td>höger hänt</td>
+	</tr>
 
     <tr class="rad3">
-<td>Rafael Nadal</td>
-<td>33 år</td>
-<td>19 garndslam titalr</td>
-<td>vänster hänt</td>
-</tr>
+		<td>Rafael Nadal</td>
+		<td>33 år</td>
+		<td>19 garndslam titalr</td>
+		<td>vänster hänt</td>
+	</tr>
 
 </table>
-  <caption class ="text">Tennis Spelare</caption>
+        <a href="https://www.atptour.com/">  	<img src="https://i.cbc.ca/1.5286598.1568731843!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/federer-roger-091719.jpg" alt="Roger Federer"></a>
+		<!-- Det är en bild på en tennis spelar och det ska vara en länk till den när man klickar på den-->
+</body>
+</html>

@@ -1,5 +1,5 @@
   table,th,td
-  {
+  {/*Storlek och färg på kanterna runt om tabellen*/
     border:2px solid black;
     border-collapse: collapse;  
   }
@@ -19,24 +19,64 @@ background-color:white;
 color:black;
 }
     
-.rad3{
+.rad3{/*Fägläggning av tabellernas kolumer och text för att göra det zebra färgat*/
 background-color:black;
 color:white;
 }
 
-td:nth-child(4){
+td:nth-child(4){/*Höger skjusterad på sita kolumerna*/
     text-align:right;
 }
-td:nth-child(2){
+td:nth-child(2){/*centrerad på andra*/
     text-align:center;
 }
-td:nth-child(3){
+td:nth-child(3){/* centrerad på tredje colummen*/
     text-align:center;
+
 }
-}
-td:nth-child(1){
+td:nth-child(1){/*Vänster skjusterad text i tabellen, nth child bestämmer vilken kolum det är*/
     text-align:left;
 }
-.text{
+.text{/* Centrerad text*/
     text-align:center;
+}
+
+body{/*Text färg backgrunds färg och stil och storlek*/
+    color: yellow;
+    Background-color: violet;       
+    font-family: "Arial";
+    font-size: 22px;
+}
+
+p.program{/*Färg på text och centrerat den*/
+    background-color: black;
+       text-align: center;
+}
+
+p.Eric{ /*Text om mig färg och storlek*/
+     border: 2px solid black;
+}
+p.Eric1{ /*Text om mig färg och storlek*/
+     border: 2px solid black;
+}
+
+p.tankar
+{/* Höger skusterrat tekxten om mina tankar kring skolan*/
+text-align:right;
+}
+
+a{/* ingen dekoration på texten*/
+    text-decoration:none;
+}
+
+
+.picture {/*Backgrund bild med mitt favorit spel*/
+background-image:url("https://www.geekqc.ca/wp-content/uploads/2018/03/bloodborne.png");
+background-repeat:no-repeat;/* Den upprepas inte så det finns mer än en*/
+}
+ul{
+	list-style:none;
+}
+ul li{
+	display:inline-block;
 }
